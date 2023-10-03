@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: #FEF9E7;
     margin-top: 3 rem;
     margin-bottom: 3 rem;
     margin-left: 5%;
@@ -14,34 +14,65 @@ h2{
     font-size: 2 rem;
 }
 
-header > img{
-    display: block;
+header{
+    display: inline;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 600px;
+       
 }
+
+header > img{
+    height: 200px;
+    width: 450px;
+    margin-left: 15%;
+    margin-top: 3%; 
+}
+
 
 nav ul{
     list-style: none;
     text-align: center;
+    margin-top: 5%;
+    background-color: #283747;
+    border-radius: 10px;
 } 
 
 nav li{ 
     display: inline-block;
-    width: 200px;
-    font-size: 50px;
-    background-color: aqua;
+    width: 250px;
+    font-size: 35px;
+    margin: 3px;
 }
 
 nav li a{
-    color: black;
+    color: #FDFEFE;
     text-decoration: none;
 }
 
 section{
     display: flex;
 }
+
+.banner{
+    background-image: url("https://img.freepik.com/free-vector/barbershop-night-interior-dark-beauty-salon_107791-7244.jpg?w=1480&t=st=1696324858~exp=1696325458~hmac=b9bdcc10332f91a8208f06de0b0c0ac4538950bf92dc92e773b00408169e9c3c");
+    height: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 30%;
+    color: #FDFEFE;
+    padding-left: 5%;
+    padding-right: 30%;
+    
+
+}
+
+.card{
+    background-color: bisque;
+    margin: 5px;
+    padding: 10px;
+}
+
 
 article{
     flex: 1;
@@ -56,7 +87,16 @@ footer div {
 }
 
 footer div img{
-    height: 60%;
-    width: 60%;
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 40%;
+    width: 40%;
+    margin-bottom: 0px;
+}
+
+footer div p{
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
